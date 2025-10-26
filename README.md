@@ -48,8 +48,8 @@ The Lease Connect backend powers core platform functionality such as:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-org>/lease-connect-backend.git
-cd lease-connect-backend
+git clone https://github.com/Matidza/Lease-Connect-API.git
+cd Lease-Connect-API
 ```
 
 ### 2️⃣ Install Dependencies
@@ -63,7 +63,7 @@ npm install
 Create a `.env` file in the root directory and configure:
 
 ```bash
-PORT=5000
+PORT=4000
 NODE_ENV=development
 DATABASE_URL=your_database_url
 JWT_SECRET=your_jwt_secret
@@ -76,7 +76,7 @@ npm run dev
 ```
 
 By default, the API will run at:
-👉 `http://localhost:5000`
+👉 `http://localhost:4000`
 
 ---
 
