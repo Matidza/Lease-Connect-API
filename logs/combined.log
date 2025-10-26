@@ -1,0 +1,35 @@
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-10-26T08:17:23.353Z"}
+{"level":"info","message":"🚀 Auth Service running on http://localhost:4000","timestamp":"2025-10-26T08:17:23.367Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-10-26T08:19:16.227Z"}
+{"level":"info","message":"🚀 Auth Service running on http://localhost:4000","timestamp":"2025-10-26T08:19:16.237Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-10-26 10:19:36"}
+{"level":"info","message":"🚀 Auth Service running on http://localhost:4000","timestamp":"2025-10-26 10:19:36"}
+{"level":"info","message":"::1 - - [26/Oct/2025:08:20:51 +0000] \"GET /api/auth/signin HTTP/1.1\" 404 154 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0\"","timestamp":"2025-10-26 10:20:51"}
+2025-10-26 10:21:43 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:21:43 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:22:24 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:22:24 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:22:31 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:22:31 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:23:01 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:23:01 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:23:58 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:23:58 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:24:16 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:24:16 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:24:32 [INFO]: ::1 - - [26/Oct/2025:08:24:32 +0000] "GET /api/auth/example HTTP/1.1" 404 155 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"
+2025-10-26 10:26:14 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:26:14 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:27:16 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:27:16 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:27:31 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:27:31 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:28:28 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:28:28 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:28:39 [INFO]: ::1 - - [26/Oct/2025:08:28:39 +0000] "GET /api/auth/example HTTP/1.1" 404 155 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"
+2025-10-26 10:28:44 [INFO]: ::1 - - [26/Oct/2025:08:28:44 +0000] "GET /api/auth/example HTTP/1.1" 404 155 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"
+2025-10-26 10:28:55 [INFO]: ::1 - - [26/Oct/2025:08:28:55 +0000] "GET /api/auth/signin HTTP/1.1" 404 154 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"
+2025-10-26 10:30:22 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:30:22 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:30:43 [INFO]: 📥 GET /api/auth/signin hit
+2025-10-26 10:30:43 [INFO]: ::1 - - [26/Oct/2025:08:30:43 +0000] "GET /api/auth/signin HTTP/1.1" 404 154 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"
