@@ -33,3 +33,10 @@
 2025-10-26 10:30:22 [INFO]: 🚀 Auth Service running on http://localhost:4000
 2025-10-26 10:30:43 [INFO]: 📥 GET /api/auth/signin hit
 2025-10-26 10:30:43 [INFO]: ::1 - - [26/Oct/2025:08:30:43 +0000] "GET /api/auth/signin HTTP/1.1" 404 154 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"
+2025-10-26 10:32:00 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:32:00 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:32:14 [INFO]: 📥 GET /api/auth/test-log hit
+2025-10-26 10:32:14 [INFO]: ✅ Test route accessed
+2025-10-26 10:32:14 [WARN]: ⚠️ This is a warning example
+2025-10-26 10:32:14 [ERROR]: ❌ Simulated error message for testing
+2025-10-26 10:32:14 [INFO]: ::1 - - [26/Oct/2025:08:32:14 +0000] "GET /api/auth/test-log HTTP/1.1" 200 54 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"

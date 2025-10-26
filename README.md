@@ -1,13 +1,10 @@
-That’s a great milestone — congrats on joining **Lease Connect** as the backend developer! 🎉
 
-For a **SaaS backend built with Node.js, Express.js, and REST APIs**, your `README.md` should:
+For a **SaaS backend built with Node.js, Express.js, and REST APIs**, your `README.md` MUST:
 
 1. **Explain what the project does**
 2. **Provide setup and usage instructions**
 3. **Detail the tech stack and architecture**
 4. **Include contribution, environment, and API documentation notes**
-
-Here’s a clean and professional **README template** you can adapt for Lease Connect 👇
 
 ---
 
