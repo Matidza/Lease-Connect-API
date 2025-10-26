@@ -5,27 +5,24 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
-
-// Import the shared logger
 import logger from './config/logger.js';
 
 // Routes
 import AuthRoutes from './routes/AuthRoutes.js';
+import AdminRoutes from './routes/AdminRoutes.js';
 
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-// ✅ Morgan setup (pipe to Winston)
+// Morgan logging to Winston
 app.use(
   morgan('combined', {
-    stream: {
-      write: (message) => logger.info(message.trim()),
-    },
+    stream: { write: (message) => logger.info(message.trim()) },
   })
 );
 
-// ✅ Security and middleware
+// Middleware
 const allowedOrigins = process.env.FRONTEND_URL || 'http://localhost:3000';
 app.use(
   cors({
@@ -34,26 +31,22 @@ app.use(
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   })
 );
-
 app.use(helmet());
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// ✅ Routes
+// Mount routes
 app.use('/api/auth', AuthRoutes);
-// app.use('/api/properties', propertyRoutes);
-// app.use('/api/users', userRoutes);
-// app.use('/api/enquiries', enquiryRoutes);
+app.use('/api/admin', AdminRoutes);
 
 app.get('/', (req, res) => {
   res.send('Lease Connect Back-end Service is running...');
 });
 
-// ✅ Centralized error handling middleware
+// Centralized error handling
 app.use((err, req, res, next) => {
   logger.error(`❌ Error: ${err.message}`, { stack: err.stack });
-
   res.status(err.status || 500).json({
     success: false,
     message: err.message || 'Internal Server Error',
@@ -61,19 +54,17 @@ app.use((err, req, res, next) => {
   });
 });
 
-// ✅ Database connection + server start
-const mongoURI = process.env.MONGO_URI || 'mongodb://localhost:27017/PropertiesDB';
-
+// DB connection + server start
 const startServer = async () => {
   try {
-    await mongoose.connect(mongoURI, {
+    await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
     logger.info('✅ Connected to MongoDB');
 
     app.listen(PORT, () => {
-      logger.info(`🚀 Auth Service running on http://localhost:${PORT}`);
+      logger.info(`🚀 Server running on http://localhost:${PORT}`);
     });
   } catch (error) {
     logger.error(`❌ MongoDB connection error: ${error.message}`);

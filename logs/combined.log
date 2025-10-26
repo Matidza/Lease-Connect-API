@@ -48,3 +48,82 @@
 2025-10-26 10:51:35 [INFO]: 🚀 Auth Service running on http://localhost:4000
 2025-10-26 10:51:40 [INFO]: ✅ Connected to MongoDB
 2025-10-26 10:51:40 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:52:17 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:52:17 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:54:06 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:54:06 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:54:24 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:54:24 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:54:53 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:54:53 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:55:03 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:55:03 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:55:10 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:55:10 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:55:22 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:55:22 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:55:25 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:55:25 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:55:30 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:55:30 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:55:51 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:55:51 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:55:54 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:55:55 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:55:58 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:55:58 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:56:04 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:56:05 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:56:17 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:56:17 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:57:44 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:57:44 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:57:54 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:57:54 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 10:58:33 [INFO]: ✅ Connected to MongoDB
+2025-10-26 10:58:33 [INFO]: 🚀 Auth Service running on http://localhost:4000
+2025-10-26 11:09:07 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:09:07 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:09:29 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:09:29 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:09:32 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:09:32 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:10:19 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:10:19 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:12:19 [INFO]: ::1 - - [26/Oct/2025:09:12:19 +0000] "GET /api/admin/create-admin HTTP/1.1" 404 161 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0"
+2025-10-26 11:17:33 [INFO]: ::1 - - [26/Oct/2025:09:17:33 +0000] "POST /api/admin/create-admin HTTP/1.1" 404 162 "-" "PostmanRuntime/7.49.0"
+2025-10-26 11:18:10 [INFO]: 📥 POST /api/auth/signin hit
+2025-10-26 11:18:10 [INFO]: 🟢 User sign-in attempt
+2025-10-26 11:18:10 [INFO]: ::1 - - [26/Oct/2025:09:18:10 +0000] "POST /api/auth/signin HTTP/1.1" 200 41 "-" "PostmanRuntime/7.49.0"
+2025-10-26 11:19:23 [INFO]: ::1 - - [26/Oct/2025:09:19:23 +0000] "POST /api/admin/create-admin HTTP/1.1" 404 162 "-" "PostmanRuntime/7.49.0"
+2025-10-26 11:20:40 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:20:40 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:20:44 [INFO]: ✅ Super Admin created
+2025-10-26 11:20:44 [INFO]: ::1 - - [26/Oct/2025:09:20:44 +0000] "POST /api/admin/api/create-admin HTTP/1.1" 201 79 "-" "PostmanRuntime/7.49.0"
+2025-10-26 11:21:12 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:21:12 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:21:29 [INFO]: ::1 - - [26/Oct/2025:09:21:29 +0000] "POST /api/admin/create-admin HTTP/1.1" 404 162 "-" "PostmanRuntime/7.49.0"
+2025-10-26 11:22:11 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:22:11 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:22:25 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:22:25 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:22:31 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:22:31 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:22:48 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:22:48 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:22:53 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:22:53 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:22:56 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:22:57 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:23:10 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:23:10 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:23:14 [INFO]: ::1 - - [26/Oct/2025:09:23:14 +0000] "POST /api/admin/create-admin HTTP/1.1" 404 162 "-" "PostmanRuntime/7.49.0"
+2025-10-26 11:23:35 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:23:35 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:23:39 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:23:39 [INFO]: 🚀 Server running on http://localhost:4000
+2025-10-26 11:24:57 [INFO]: ::1 - - [26/Oct/2025:09:24:57 +0000] "POST /api/admin/create-admin HTTP/1.1" 404 162 "-" "PostmanRuntime/7.49.0"
+2025-10-26 11:25:05 [ERROR]: ❌ Error creating admin
+2025-10-26 11:25:05 [INFO]: ::1 - - [26/Oct/2025:09:25:05 +0000] "POST /api/admin/api/create-admin HTTP/1.1" 500 84 "-" "PostmanRuntime/7.49.0"
+2025-10-26 11:25:49 [INFO]: ✅ Connected to MongoDB
+2025-10-26 11:25:49 [INFO]: 🚀 Server running on http://localhost:4000

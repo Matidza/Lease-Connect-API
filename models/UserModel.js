@@ -20,15 +20,15 @@ const userSchema = new mongoose.Schema(
       select: false, // ✅ Hide password from query results
     },
 
-    user_type: {
+    type: {
       type: String,
-      enum: ["mentee", "mentor", "company", "institution",  "admin"],
+      enum: [ "land-lord", "tenent",  "admin"],
       // default: "mentee", // ✅ Uncomment if you want a default role
     },
 
     provider: {
       type: String,
-      enum: ["local", "google", "github"],
+      enum: ["local", "google"],
       default: "local",
     },
 

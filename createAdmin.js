@@ -2,7 +2,8 @@ import mongoose from "mongoose";
 import bcrypt from "bcryptjs";
 import dotenv from "dotenv";
 import readline from "readline";
-import UserModel from "./models/UserModel.js";
+import UserModel from "./models/UserModel";
+import logger from '../config/logger.js';
 
 dotenv.config();
 
